@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+
+	background: seagreen;
+	transition: all 0.3s ease;
+
+}
+.container{
+	max-width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+}
+.bg1{
+	background: orange;
+}
+.bg2{
+	background: skyblue;
+}
+h1{
+	font-size: 100px;
+	color: #fff;
+
+}
+p{
+	font-size: 22px;
+	color: #fff;
+}
+ 
